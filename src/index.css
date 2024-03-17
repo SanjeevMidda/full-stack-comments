@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 300ms;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(125, 125, 125);
+
+  h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+h3:hover {
+  transform: translateX(20px) scale(1.2);
+  color: greenyellow;
+}
+
+input {
+  border: 1px solid rgb(197, 197, 197);
+  width: 50dvw;
+  height: 10dvh;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
