@@ -46,7 +46,7 @@ app.put("/test/:numbers", (req, res) => {
   if (check) {
     let newValue = (updateNumbers[0].numbers += 1);
 
-    res.send(`${newValue} people have liked your comment`);
+    res.send(`${newValue} people have liked your comment!`);
   } else {
     res.send("This value does not exist!");
   }
