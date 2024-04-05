@@ -48,7 +48,7 @@ app.put("/test/:numbers", (req, res) => {
 
     res.send(`${newValue} people have liked your comment!`);
   } else {
-    res.send("This value does not exist!");
+    res.send("This value does not exist.");
   }
 });
 
