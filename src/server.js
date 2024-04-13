@@ -7,7 +7,7 @@ const app = express();
 const updateNumbers = [
   {
     name: "cars",
-    numbers: 5,
+    numbers: 0,
   },
 ];
 
