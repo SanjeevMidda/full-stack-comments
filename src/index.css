@@ -13,7 +13,7 @@
 }
 
 .inputContainer {
-  display: flex-end;
+  display: flex-center;
   gap: 20px;
   justify-content: flex-end;
   align-items: center;
