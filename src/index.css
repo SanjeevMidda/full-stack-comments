@@ -27,7 +27,7 @@
 
 h3:hover {
   transform: translateX(20px) scale(1.2);
-  color: greenyellow;
+  color: blue;
 }
 
 input {
