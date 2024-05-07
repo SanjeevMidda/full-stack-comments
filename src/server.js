@@ -54,5 +54,5 @@ app.put("/test/:numbers", (req, res) => {
 
 // PORT - port our server will listen for requests on
 app.listen(8000, () => {
-  console.log("Server running!");
+  console.log("running!");
 });
