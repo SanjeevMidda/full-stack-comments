@@ -17,7 +17,7 @@ app.use(express.json());
 // ENDPOINTS
 // requesting data from the server
 app.get("/test", (req, res) => {
-  res.send("Testing API routes");
+  res.send("Testing routes");
 });
 
 // dynamic url using ":" & response based on this. '.params' gives us URL details.
