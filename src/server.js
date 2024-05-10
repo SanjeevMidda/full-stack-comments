@@ -20,6 +20,10 @@ app.get("/test", (req, res) => {
   res.send("Testing routes");
 });
 
+app.get("/test2", (req, res) => {
+  res.send("Testing routes");
+});
+
 // dynamic url using ":" & response based on this. '.params' gives us URL details.
 app.get("/test/:name", (req, res) => {
   let nameReceived = req.params.name;
