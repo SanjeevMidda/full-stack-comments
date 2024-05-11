@@ -17,7 +17,7 @@ app.use(express.json());
 // ENDPOINTS
 // requesting data from the server
 app.get("/test", (req, res) => {
-  res.send("Testing routes");
+  res.send("Testing API routes");
 });
 
 app.get("/test2", (req, res) => {
