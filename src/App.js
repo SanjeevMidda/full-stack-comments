@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 
 function App() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(" ");
 
   return (
     <div className="App">
